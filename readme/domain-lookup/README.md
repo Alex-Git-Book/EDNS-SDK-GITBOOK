@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section is explaining how to use the SDK to lookup available EDNS
-  available domain name and lookup the EDNS by using the wallet address.
+  This section is explaining how to use the SDK to lookup Text Records, Wallet
+  Address by using the EDNS Domain.
 ---
 
 # Domain Lookup
@@ -13,8 +13,6 @@ description: >-
 [LookUpAddress](lookupaddress.md)
 
 [LookupDomainFromAddress](lookupdomainfromaddress.md)
-
-
 
 ### Examples
 
