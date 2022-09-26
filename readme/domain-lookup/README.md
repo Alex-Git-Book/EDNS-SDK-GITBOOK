@@ -13,8 +13,6 @@ description: >-
 
 [LookUpAddress](lookupaddress.md)
 
-[LookupDomainFromAddress](../register-domain/lookupdomainfromaddress.md)
-
 ### Examples
 
 To look up a wallet address for receiving ETH of Domain "apexlegend.404" .
