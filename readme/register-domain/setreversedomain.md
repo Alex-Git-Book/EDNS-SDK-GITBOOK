@@ -8,12 +8,11 @@ description: >-
 
 ### Usage
 
-SetReverseDomain(domain: string, signerOrProvider: Signer | Provider): Promise\<Transaction>
+SetReverseDomain(domain: string, signer: Signer): Promise\<Transaction | Error>
 
 *   **Parameters**
 
     * **domain: string**
-    * **signerOrProvider: Signer | Provider**
+    * **signer: Signer**
 
-    **Returns Promise\<Transaction>**
-
+    Promise\<Transaction | Error>

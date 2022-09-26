@@ -4,23 +4,37 @@ description: >-
   map to the Web 2.0 URL, such as company website or personal website.
 ---
 
-# Register Domain
+# Reverse Domain
 
 ### Available Function
 
 [SetReverseDomain](setreversedomain.md)
 
-
+[LookupDomainFromAddress](lookupdomainfromaddress.md)
 
 ### Example
 
-To set a reverse domain which can access from EDNS to Web 2.0 URL
+To set a reverse domain "ednsdomains2022.meta" for address.
 
 ```
-const RPC_ENDPOINT = 'https://polygon-rpc.com/';
-const provider = new ethers.providers.JsonRpcProvider(RPC_ENDPOINT);
-//Any Provider or ethers.Signer
-const walletWithProvider = new ethers.Wallet(process.env.privateKey, provider);
-const transaction = await SetReverseDomain("setter.meta",walletWithProvider)
+import {GetEdnsProvider, SetReverseDomain} from "@edns/sdk";
+const privateKey = 'xxx...'
+const provider = await GetEdnsProvider()
+let walletWithProvider = new ethers.Wallet(privateKey, provider);
+try {
+    let result = await SetReverseDomain("ednsdomains2022.meta",walletWithProvider)
+    console.log(result)
+}catch (e){
+    console.log(e)
+}
 ```
 
+To look up the EDNSdomain of "0xCD58F85e6Ec23733143599Fe0f982fC1d3f6C12c".
+
+```
+import {LookupDomainFromAddress} from "@edns/sdk";
+let address = "0xCD58F85e6Ec23733143599Fe0f982fC1d3f6C12c"
+console.log(await LookupDomainFromAddress(address));
+
+//return ednsdomains2022.meta
+```
