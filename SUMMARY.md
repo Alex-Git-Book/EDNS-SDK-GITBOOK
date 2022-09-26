@@ -5,7 +5,6 @@
     * [LookUpText](readme/domain-lookup/lookuptext.md)
     * [LookupAddress](readme/domain-lookup/lookupaddress.md)
   * [Domain Set Record](readme/domain-set-record/README.md)
-    * [SetReverseDomain](readme/domain-set-record/setreversedomain.md)
     * [WriteAddress](readme/domain-set-record/writeaddress.md)
     * [WriteText](readme/domain-set-record/writetext.md)
   * [Reverse Domain](readme/register-domain/README.md)
