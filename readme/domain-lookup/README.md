@@ -17,22 +17,25 @@ description: >-
 
 ### Examples
 
-A. To lookup a EDNS record
+To look up a wallet address for receiving ETH of Domain "apexlegend.404" .
 
 ```
 import {LookupAddress, LookUpText, TextType} from "@edns/sdk";
 
 const domain = "apexlegend.404";
-
 const cryptocurrencies = "ETH";
 const address = await LookupAddress(domain,cryptocurrencies);
 const description = await LookUpText(domain,TextType.DESCRIPTION);
+
+//Return 0x5d6fdbffd6dc6e8a0b69a52dbf010efd905fb7ad
 ```
 
-B. To lookup a domain with a wallet address
+To look up a DESCRIPTION of Domain "apexlegend.404"
 
 ```
-import {LookupDomainFromAddress} from "@edns/sdk";
-const address = "0xCD58F85e6Ec23733143599Fe0f982fC1d3f6C12c"
-const domain = await LookupDomainFromAddress(address);
+import {LookUpText, TextType} from "@edns/sdk";
+const domain = "apexlegend.404"
+const record_DESCRIPTION = await LookUpText(domain,TextType.DESCRIPTION)
+
+//Return Apex Legend
 ```
