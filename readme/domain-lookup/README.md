@@ -1,7 +1,8 @@
 ---
 description: >-
   This section is explaining how to use the SDK to lookup Text Records, Wallet
-  Address by using the EDNS Domain.
+  Address by using the EDNS Domain. Also including lookup default domain name by
+  using wallet address
 ---
 
 # Domain Lookup
