@@ -1,8 +1,7 @@
 ---
 description: >-
-  This function is able to look up a registered EDNS name and return the linked
-  wallet address. "undefined" will be return while the domain name does not
-  register.
+  This function is able to look up a address and return the bound EDNS Domain.
+  "undefined" will be return while address has not bound any EDNS Domain
 ---
 
 # LookupDomainFromAddress
@@ -16,6 +15,3 @@ LookupDomainFromAddress(address: string): Promise\<undefined | string>
     * **address: string**
 
     **Returns Promise\<undefined | string>**
-
-
-

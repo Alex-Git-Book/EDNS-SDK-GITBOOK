@@ -1,8 +1,8 @@
 ---
 description: >-
-  This function is able to look up an available EDNS and prepare for register. 
-  If the keyword is found in the chain, the EDNS will return the name. 
-  Otherwise, "undefined" will be return while the keyw
+  This function is able to look up an available EDNS Record.  If the keyword is
+  found in the chain, the EDNS will return the record. Otherwise, "undefined"
+  will be return while the key.
 ---
 
 # LookUpText
@@ -17,4 +17,3 @@ LookUpText(domain: string, type: [TextType](../../broken-reference/)): Promise\<
     * **type:** [**TextType**](../../texttype.md)
 
     **Returns Promise\<undefined | string>**
-

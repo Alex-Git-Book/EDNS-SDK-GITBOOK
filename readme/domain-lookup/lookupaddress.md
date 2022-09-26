@@ -1,7 +1,8 @@
 ---
 description: >-
-  This function is able to look up the wallet address of a registered EDNS name.
-  "undefined" will be return while the domain name does not register.
+  This function is able to look up the wallet address for different Tokens of a
+  registered EDNS name. "undefined" will be return while the token address does
+  not set.
 ---
 
 # LookupAddress
@@ -16,6 +17,3 @@ LookupAddress(domain: string, coinName: string): Promise\<undefined | string>
     * **coinName: string (**[**The cryptocurrency name**](../../cryptocurrency-short-name.md)**)**
 
     **Returns Promise\<undefined | string>**
-
-
-

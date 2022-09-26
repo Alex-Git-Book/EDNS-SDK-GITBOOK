@@ -13,7 +13,7 @@ description: >-
 
 [LookUpAddress](lookupaddress.md)
 
-[LookupDomainFromAddress](lookupdomainfromaddress.md)
+[LookupDomainFromAddress](../register-domain/lookupdomainfromaddress.md)
 
 ### Examples
 
