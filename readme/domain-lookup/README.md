@@ -1,11 +1,6 @@
----
-description: >-
-  This section is explaining how to use the SDK to lookup Text Records, Wallet
-  Address by using the EDNS Domain. Also including lookup default domain name by
-  using wallet address
----
-
 # Domain Lookup
+
+This section explains how the SDK looks up Text Records and Wallet Addresses by inputting the relevant EDNS domain.&#x20;
 
 ### Available functions
 
@@ -15,7 +10,7 @@ description: >-
 
 ### Examples
 
-To look up a wallet address for receiving ETH of Domain "apexlegend.404" .
+To look up the ETH wallet address for domain name "apexlegend.404" .
 
 ```
 import {LookupAddress} from "@edns/sdk";

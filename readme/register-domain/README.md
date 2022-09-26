@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section is explaining how to register the domain on the EDNS chain(s) to
-  map to the Web 2.0 URL, such as company website or personal website.
+  This function looks up the default EDNS domain by inputting its relevant
+  wallet address.
 ---
 
 # Reverse Domain

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This function is able to set a registered EDNS name to a Web 2.0 URL. A
-  transaction code will be returned once successfully.
+  This function binds an EDNS domain name to a wallet address. This can only be
+  done by the domain holder.
 ---
 
 # SetReverseDomain

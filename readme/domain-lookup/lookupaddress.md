@@ -1,8 +1,8 @@
 ---
 description: >-
-  This function is able to look up the wallet address for different Tokens of a
-  registered EDNS name. "undefined" will be return while the token address does
-  not set.
+  This function looks up the wallet address for different Tokens of a registered
+  EDNS domain name. "undefined" will be returned if the token address has not
+  been set.
 ---
 
 # LookupAddress

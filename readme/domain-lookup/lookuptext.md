@@ -1,8 +1,8 @@
 ---
 description: >-
-  This function is able to look up an available EDNS Record.  If the keyword is
-  found in the chain, the EDNS will return the record. Otherwise, "undefined"
-  will be return while the key.
+  This function looks up an available EDNS Record.  If the keyword is found in
+  the chain, the relevant record will be returned. Otherwise, "undefined" will
+  be returned.
 ---
 
 # LookUpText

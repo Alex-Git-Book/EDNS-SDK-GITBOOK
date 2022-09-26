@@ -1,5 +1,5 @@
 ---
-description: This is the list of the enumeration members of TextType
+description: This is the list of the enumeration members of TextType.
 ---
 
 # TextType

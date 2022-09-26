@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section is explaining how to use the SDK to set Text Records, wallet
-  address for receive different Token, and default domain name.
+  This section explains how to use the SDK to set text records and wallet
+  addresses for receiving different tokens.
 ---
 
 # Domain Set Record
@@ -12,7 +12,7 @@ description: >-
 
 ### Examples
 
-To Set up a wallet address "0x14A1A496fABc43bFAfC358005dE336a7B5222b20" for receiving ADA of Domain "ednsdomains2022.meta" .
+To set up a wallet address "0x14A1A496fABc43bFAfC358005dE336a7B5222b20" for receiving ETH for domain name "ednsdomains2022.meta" .
 
 ```
 import {WriteAddress, GetEdnsProvider} from "@edns/sdk";
@@ -20,7 +20,7 @@ const privateKey = 'xxx...'
 const provider = await GetEdnsProvider()
 let walletWithProvider = new ethers.Wallet(privateKey, provider);
  try {
-  let result = await WriteAddress("ednsdomains2022.meta","ADA","0x14A1A496fABc43bFAfC358005dE336a7B5222b20",walletWithProvider)
+  let result = await WriteAddress("ednsdomains2022.meta","ETH","0x14A1A496fABc43bFAfC358005dE336a7B5222b20",walletWithProvider)
   console.log(result)
 }catch (e){
     console.log(e)
