@@ -11,4 +11,4 @@ WriteText(domain: string, type: [TextType](../../texttype.md), text: string, sig
     * **text: string**
     * **signer: Signer**
 
-    **Returns Promise\<undefined | string>**
+    **Returns** Promise\<ContractTransaction>
